@@ -1,0 +1,666 @@
+e He(1S1) <-> e He(2S3) e e
+e He(1S1) <-> e He(2S1) e e
+e He(1S1) <-> e He(2P3) e e
+e He(1S1) <-> e He(2P1) e e
+e He(1S1) <-> e He(3S3) e e
+e He(1S1) <-> e He(3S1) e e
+e He(1S1) <-> e He(3P3) e e
+e He(1S1) <-> e He(3D3) e e
+e He(1S1) <-> e He(3D1) e e
+e He(1S1) <-> e He(3P1) e e
+e He(1S1) <-> e He(4S3) e e
+e He(1S1) <-> e He(4S1) e e
+e He(1S1) <-> e He(4P3) e e
+e He(1S1) <-> e He(4D3) e e
+e He(1S1) <-> e He(4D1) e e
+e He(1S1) <-> e He(4F3) e e
+e He(1S1) <-> e He(4F1) e e
+e He(1S1) <-> e He(4P1) e e
+e He(1S1) <-> e He(5S3) e e
+e He(1S1) <-> e He(5S1) e e
+e He(1S1) <-> e He(5P3) e e
+e He(1S1) <-> e He(5D3) e e
+e He(1S1) <-> e He(5D1) e e
+e He(1S1) <-> e He(5FG3) e e
+e He(1S1) <-> e He(5FG1) e e
+e He(1S1) <-> e He(5P1) e e
+e He(1S1) <-> e He(6S3) e e
+e He(1S1) <-> e He(6S1) e e
+e He(1S1) <-> e He(6P3) e e
+e He(1S1) <-> e He(6D3) e e
+e He(1S1) <-> e He(6D1) e e
+e He(1S1) <-> e He(6FGH3) e e
+e He(1S1) <-> e He(6FGH1) e e
+e He(1S1) <-> e He(6P1) e e
+e He(1S1) <-> e He(7S3) e e
+e He(1S1) <-> e He(7S1) e e
+e He(1S1) <-> e He(7P3) e e
+e He(1S1) <-> e He(7D3) e e
+e He(1S1) <-> e He(7D1) e e
+e He(1S1) <-> e He(7FGHI3) e e
+e He(1S1) <-> e He(7FGHI1) e e
+e He(1S1) <-> e He(7P1) e e
+e He(2S3) <-> e He(2S1) e e
+e He(2S3) <-> e He(2P3) e e
+e He(2S3) <-> e He(2P1) e e
+e He(2S3) <-> e He(3S3) e e
+e He(2S3) <-> e He(3S1) e e
+e He(2S3) <-> e He(3P3) e e
+e He(2S3) <-> e He(3D3) e e
+e He(2S3) <-> e He(3D1) e e
+e He(2S3) <-> e He(3P1) e e
+e He(2S3) <-> e He(4S3) e e
+e He(2S3) <-> e He(4S1) e e
+e He(2S3) <-> e He(4P3) e e
+e He(2S3) <-> e He(4D3) e e
+e He(2S3) <-> e He(4D1) e e
+e He(2S3) <-> e He(4F3) e e
+e He(2S3) <-> e He(4F1) e e
+e He(2S3) <-> e He(4P1) e e
+e He(2S3) <-> e He(5S3) e e
+e He(2S3) <-> e He(5S1) e e
+e He(2S3) <-> e He(5P3) e e
+e He(2S3) <-> e He(5D3) e e
+e He(2S3) <-> e He(5D1) e e
+e He(2S3) <-> e He(5FG3) e e
+e He(2S3) <-> e He(5FG1) e e
+e He(2S3) <-> e He(5P1) e e
+e He(2S3) <-> e He(6S3) e e
+e He(2S3) <-> e He(6S1) e e
+e He(2S3) <-> e He(6P3) e e
+e He(2S3) <-> e He(6D3) e e
+e He(2S3) <-> e He(6D1) e e
+e He(2S3) <-> e He(6FGH3) e e
+e He(2S3) <-> e He(6FGH1) e e
+e He(2S3) <-> e He(6P1) e e
+e He(2S3) <-> e He(7S3) e e
+e He(2S3) <-> e He(7S1) e e
+e He(2S3) <-> e He(7P3) e e
+e He(2S3) <-> e He(7D3) e e
+e He(2S3) <-> e He(7D1) e e
+e He(2S3) <-> e He(7FGHI3) e e
+e He(2S3) <-> e He(7FGHI1) e e
+e He(2S3) <-> e He(7P1) e e
+e He(2S1) <-> e He(2P3) e e
+e He(2S1) <-> e He(2P1) e e
+e He(2S1) <-> e He(3S3) e e
+e He(2S1) <-> e He(3S1) e e
+e He(2S1) <-> e He(3P3) e e
+e He(2S1) <-> e He(3D3) e e
+e He(2S1) <-> e He(3D1) e e
+e He(2S1) <-> e He(3P1) e e
+e He(2S1) <-> e He(4S3) e e
+e He(2S1) <-> e He(4S1) e e
+e He(2S1) <-> e He(4P3) e e
+e He(2S1) <-> e He(4D3) e e
+e He(2S1) <-> e He(4D1) e e
+e He(2S1) <-> e He(4F3) e e
+e He(2S1) <-> e He(4F1) e e
+e He(2S1) <-> e He(4P1) e e
+e He(2S1) <-> e He(5S3) e e
+e He(2S1) <-> e He(5S1) e e
+e He(2S1) <-> e He(5P3) e e
+e He(2S1) <-> e He(5D3) e e
+e He(2S1) <-> e He(5D1) e e
+e He(2S1) <-> e He(5FG3) e e
+e He(2S1) <-> e He(5FG1) e e
+e He(2S1) <-> e He(5P1) e e
+e He(2S1) <-> e He(6S3) e e
+e He(2S1) <-> e He(6S1) e e
+e He(2S1) <-> e He(6P3) e e
+e He(2S1) <-> e He(6D3) e e
+e He(2S1) <-> e He(6D1) e e
+e He(2S1) <-> e He(6FGH3) e e
+e He(2S1) <-> e He(6FGH1) e e
+e He(2S1) <-> e He(6P1) e e
+e He(2S1) <-> e He(7S3) e e
+e He(2S1) <-> e He(7S1) e e
+e He(2S1) <-> e He(7P3) e e
+e He(2S1) <-> e He(7D3) e e
+e He(2S1) <-> e He(7D1) e e
+e He(2S1) <-> e He(7FGHI3) e e
+e He(2S1) <-> e He(7FGHI1) e e
+e He(2S1) <-> e He(7P1) e e
+e He(2P3) <-> e He(3S3) e e
+e He(2P3) <-> e He(3S1) e e
+e He(2P3) <-> e He(3D3) e e
+e He(2P3) <-> e He(3D1) e e
+e He(2P3) <-> e He(4S3) e e
+e He(2P3) <-> e He(4S1) e e
+e He(2P3) <-> e He(4D3) e e
+e He(2P3) <-> e He(4D1) e e
+e He(2P3) <-> e He(5S3) e e
+e He(2P3) <-> e He(5S1) e e
+e He(2P3) <-> e He(5D3) e e
+e He(2P3) <-> e He(5D1) e e
+e He(2P3) <-> e He(6S3) e e
+e He(2P3) <-> e He(6S1) e e
+e He(2P3) <-> e He(6D3) e e
+e He(2P3) <-> e He(6D1) e e
+e He(2P3) <-> e He(7S3) e e
+e He(2P3) <-> e He(7S1) e e
+e He(2P3) <-> e He(7D3) e e
+e He(2P3) <-> e He(7D1) e e
+e He(2P1) <-> e He(3S1) e e
+e He(2P1) <-> e He(3S3) e e
+e He(2P1) <-> e He(3D1) e e
+e He(2P1) <-> e He(3D3) e e
+e He(2P1) <-> e He(4S1) e e
+e He(2P1) <-> e He(4S3) e e
+e He(2P1) <-> e He(4D1) e e
+e He(2P1) <-> e He(4D3) e e
+e He(2P1) <-> e He(5S1) e e
+e He(2P1) <-> e He(5S3) e e
+e He(2P1) <-> e He(5D1) e e
+e He(2P1) <-> e He(5D3) e e
+e He(2P1) <-> e He(6S1) e e
+e He(2P1) <-> e He(6S3) e e
+e He(2P1) <-> e He(6D1) e e
+e He(2P1) <-> e He(6D3) e e
+e He(2P1) <-> e He(7S1) e e
+e He(2P1) <-> e He(7S3) e e
+e He(2P1) <-> e He(7D1) e e
+e He(2P1) <-> e He(7D3) e e
+e He(3S3) <-> e He(3P3) e e
+e He(3S3) <-> e He(4P3) e e
+e He(3S3) <-> e He(5P3) e e
+e He(3S3) <-> e He(6P3) e e
+e He(3S3) <-> e He(7P3) e e
+e He(3S1) <-> e He(3P1) e e
+e He(3S1) <-> e He(4P1) e e
+e He(3S1) <-> e He(5P1) e e
+e He(3S1) <-> e He(6P1) e e
+e He(3S1) <-> e He(7P1) e e
+e He(3P3) <-> e He(3D3) e e
+e He(3P3) <-> e He(4S3) e e
+e He(3P3) <-> e He(4D3) e e
+e He(3P3) <-> e He(5S3) e e
+e He(3P3) <-> e He(5D3) e e
+e He(3P3) <-> e He(6S3) e e
+e He(3P3) <-> e He(6D3) e e
+e He(3P3) <-> e He(7S3) e e
+e He(3P3) <-> e He(7D3) e e
+e He(3D3) <-> e He(4P3) e e
+e He(3D3) <-> e He(4F3) e e
+e He(3D3) <-> e He(5P3) e e
+e He(3D3) <-> e He(5FG3) e e
+e He(3D3) <-> e He(6P3) e e
+e He(3D3) <-> e He(6FGH3) e e
+e He(3D3) <-> e He(7P3) e e
+e He(3D3) <-> e He(7FGHI3) e e
+e He(3D1) <-> e He(3P1) e e
+e He(3D1) <-> e He(4F1) e e
+e He(3D1) <-> e He(4P1) e e
+e He(3D1) <-> e He(5FG1) e e
+e He(3D1) <-> e He(5P1) e e
+e He(3D1) <-> e He(6FGH1) e e
+e He(3D1) <-> e He(6P1) e e
+e He(3D1) <-> e He(7FGHI1) e e
+e He(3D1) <-> e He(7P1) e e
+e He(3P1) <-> e He(4S1) e e
+e He(3P1) <-> e He(4D1) e e
+e He(3P1) <-> e He(5S1) e e
+e He(3P1) <-> e He(5D1) e e
+e He(3P1) <-> e He(6S1) e e
+e He(3P1) <-> e He(6D1) e e
+e He(3P1) <-> e He(7S1) e e
+e He(3P1) <-> e He(7D1) e e
+e He(4S3) <-> e He(4P3) e e
+e He(4S3) <-> e He(5P3) e e
+e He(4S3) <-> e He(6P3) e e
+e He(4S3) <-> e He(7P3) e e
+e He(4S1) <-> e He(4P1) e e
+e He(4S1) <-> e He(5P1) e e
+e He(4S1) <-> e He(6P1) e e
+e He(4S1) <-> e He(7P1) e e
+e He(4P3) <-> e He(4D3) e e
+e He(4P3) <-> e He(5S3) e e
+e He(4P3) <-> e He(5D3) e e
+e He(4P3) <-> e He(6S3) e e
+e He(4P3) <-> e He(6D3) e e
+e He(4P3) <-> e He(7S3) e e
+e He(4P3) <-> e He(7D3) e e
+e He(4D3) <-> e He(4F3) e e
+e He(4D3) <-> e He(5P3) e e
+e He(4D3) <-> e He(5FG3) e e
+e He(4D3) <-> e He(6P3) e e
+e He(4D3) <-> e He(6FGH3) e e
+e He(4D3) <-> e He(7P3) e e
+e He(4D3) <-> e He(7FGHI3) e e
+e He(4D1) <-> e He(4F1) e e
+e He(4D1) <-> e He(4P1) e e
+e He(4D1) <-> e He(5FG1) e e
+e He(4D1) <-> e He(5P1) e e
+e He(4D1) <-> e He(6FGH1) e e
+e He(4D1) <-> e He(6P1) e e
+e He(4D1) <-> e He(7FGHI1) e e
+e He(4D1) <-> e He(7P1) e e
+e He(4F3) <-> e He(5D3) e e
+e He(4F3) <-> e He(5FG3) e e
+e He(4F3) <-> e He(6D3) e e
+e He(4F3) <-> e He(6FGH3) e e
+e He(4F3) <-> e He(7D3) e e
+e He(4F3) <-> e He(7FGHI3) e e
+e He(4F1) <-> e He(5D1) e e
+e He(4F1) <-> e He(5FG1) e e
+e He(4F1) <-> e He(6D1) e e
+e He(4F1) <-> e He(6FGH1) e e
+e He(4F1) <-> e He(7D1) e e
+e He(4F1) <-> e He(7FGHI1) e e
+e He(4P1) <-> e He(5S1) e e
+e He(4P1) <-> e He(5D1) e e
+e He(4P1) <-> e He(6S1) e e
+e He(4P1) <-> e He(6D1) e e
+e He(4P1) <-> e He(7S1) e e
+e He(4P1) <-> e He(7D1) e e
+e He(5S3) <-> e He(5P3) e e
+e He(5S3) <-> e He(6P3) e e
+e He(5S3) <-> e He(7P3) e e
+e He(5S1) <-> e He(5P1) e e
+e He(5S1) <-> e He(6P1) e e
+e He(5S1) <-> e He(7P1) e e
+e He(5P3) <-> e He(5D3) e e
+e He(5P3) <-> e He(6S3) e e
+e He(5P3) <-> e He(6D3) e e
+e He(5P3) <-> e He(7S3) e e
+e He(5P3) <-> e He(7D3) e e
+e He(5D3) <-> e He(5FG3) e e
+e He(5D3) <-> e He(6P3) e e
+e He(5D3) <-> e He(6FGH3) e e
+e He(5D3) <-> e He(7P3) e e
+e He(5D3) <-> e He(7FGHI3) e e
+e He(5D1) <-> e He(5FG1) e e
+e He(5D1) <-> e He(5P1) e e
+e He(5D1) <-> e He(6FGH1) e e
+e He(5D1) <-> e He(6P1) e e
+e He(5D1) <-> e He(7FGHI1) e e
+e He(5D1) <-> e He(7P1) e e
+e He(5FG3) <-> e He(6D3) e e
+e He(5FG3) <-> e He(6FGH3) e e
+e He(5FG3) <-> e He(7D3) e e
+e He(5FG3) <-> e He(7FGHI3) e e
+e He(5FG1) <-> e He(6D1) e e
+e He(5FG1) <-> e He(6FGH1) e e
+e He(5FG1) <-> e He(7D1) e e
+e He(5FG1) <-> e He(7FGHI1) e e
+e He(5P1) <-> e He(6S1) e e
+e He(5P1) <-> e He(6D1) e e
+e He(5P1) <-> e He(7S1) e e
+e He(5P1) <-> e He(7D1) e e
+e He(6S3) <-> e He(6P3) e e
+e He(6S3) <-> e He(7P3) e e
+e He(6S1) <-> e He(6P1) e e
+e He(6S1) <-> e He(7P1) e e
+e He(6P3) <-> e He(6D3) e e
+e He(6P3) <-> e He(7S3) e e
+e He(6P3) <-> e He(7D3) e e
+e He(6D3) <-> e He(6FGH3) e e
+e He(6D3) <-> e He(7P3) e e
+e He(6D3) <-> e He(7FGHI3) e e
+e He(6D1) <-> e He(6P1) e e
+e He(6D1) <-> e He(7FGHI1) e e
+e He(6D1) <-> e He(7P1) e e
+e He(6FGH3) <-> e He(7D3) e e
+e He(6FGH3) <-> e He(7FGHI3) e e
+e He(6FGH1) <-> e He(7D1) e e
+e He(6FGH1) <-> e He(7FGHI1) e e
+e He(6P1) <-> e He(7S1) e e
+e He(6P1) <-> e He(7D1) e e
+e He(1S1) -> e e He(+,1S2) e e
+e He(2S3) -> e e He(+,1S2) e e
+e He(2S1) -> e e He(+,1S2) e e
+e He(2P3) -> e e He(+,1S2) e e
+e He(2P1) -> e e He(+,1S2) e e
+e He(3S3) -> e e He(+,1S2) e e
+e He(3S1) -> e e He(+,1S2) e e
+e He(3P3) -> e e He(+,1S2) e e
+e He(3D3) -> e e He(+,1S2) e e
+e He(3D1) -> e e He(+,1S2) e e
+e He(3P1) -> e e He(+,1S2) e e
+e He(4S3) -> e e He(+,1S2) e e
+e He(4S1) -> e e He(+,1S2) e e
+e He(4P3) -> e e He(+,1S2) e e
+e He(4D3) -> e e He(+,1S2) e e
+e He(4D1) -> e e He(+,1S2) e e
+e He(4F3) -> e e He(+,1S2) e e
+e He(4F1) -> e e He(+,1S2) e e
+e He(4P1) -> e e He(+,1S2) e e
+e He(5S3) -> e e He(+,1S2) e e
+e He(5S1) -> e e He(+,1S2) e e
+e He(5P3) -> e e He(+,1S2) e e
+e He(5D3) -> e e He(+,1S2) e e
+e He(5D1) -> e e He(+,1S2) e e
+e He(5FG3) -> e e He(+,1S2) e e
+e He(5FG1) -> e e He(+,1S2) e e
+e He(5P1) -> e e He(+,1S2) e e
+e He(6S3) -> e e He(+,1S2) e e
+e He(6S1) -> e e He(+,1S2) e e
+e He(6P3) -> e e He(+,1S2) e e
+e He(6D3) -> e e He(+,1S2) e e
+e He(6D1) -> e e He(+,1S2) e e
+e He(6FGH3) -> e e He(+,1S2) e e
+e He(6FGH1) -> e e He(+,1S2) e e
+e He(6P1) -> e e He(+,1S2) e e
+e He(7S3) -> e e He(+,1S2) e e
+e He(7S1) -> e e He(+,1S2) e e
+e He(7P3) -> e e He(+,1S2) e e
+e He(7D3) -> e e He(+,1S2) e e
+e He(7D1) -> e e He(+,1S2) e e
+e He(7FGHI3) -> e e He(+,1S2) e e
+e He(7FGHI1) -> e e He(+,1S2) e e
+e He(7P1) -> e e He(+,1S2) e e
+e e e -> e e e e e e e e
+e e He(+,1S2) -> e He(2S3) e e e e
+e e e -> e He(1S1) He(2S3) e e e e
+e e e -> e e e e e e e
+e e -> He(2S3) He(1S1) e e
+e e -> He(2S1) He(1S1) e e
+e e -> He(2P3) He(1S1) e e
+e e -> He(2P1) He(1S1) e e
+e e e -> e He(1S1) e e e
+He(3S3) He(1S1) -> e e e e e
+He(3S1) He(1S1) -> e e e e e
+He(3P3) He(1S1) -> e e e e e
+He(3D3) He(1S1) -> e e e e e
+He(3D1) He(1S1) -> e e e e e
+He(3P1) He(1S1) -> e e e e e
+He(4S3) He(1S1) -> e e e e e
+He(4S1) He(1S1) -> e e e e e
+He(4P3) He(1S1) -> e e e e e
+He(4D3) He(1S1) -> e e e e e
+He(4D1) He(1S1) -> e e e e e
+He(4F3) He(1S1) -> e e e e e
+He(4F1) He(1S1) -> e e e e e
+He(4P1) He(1S1) -> e e e e e
+He(5S3) He(1S1) -> e e e e e
+He(5S1) He(1S1) -> e e e e e
+He(5P3) He(1S1) -> e e e e e
+He(5D3) He(1S1) -> e e e e e
+He(5D1) He(1S1) -> e e e e e
+He(5FG3) He(1S1) -> e e e e e
+He(5FG1) He(1S1) -> e e e e e
+He(5P1) He(1S1) -> e e e e e
+He(6S3) He(1S1) -> e e e e e
+He(6S1) He(1S1) -> e e e e e
+He(6P3) He(1S1) -> e e e e e
+He(6D3) He(1S1) -> e e e e e
+He(6D1) He(1S1) -> e e e e e
+He(6FGH3) He(1S1) -> e e e e e
+He(6FGH1) He(1S1) -> e e e e e
+He(6P1) He(1S1) -> e e e e e
+He(7S3) He(1S1) -> e e e e e
+He(7S1) He(1S1) -> e e e e e
+He(7P3) He(1S1) -> e e e e e
+He(7D3) He(1S1) -> e e e e e
+He(7D1) He(1S1) -> e e e e e
+He(7FGHI3) He(1S1) -> e e e e e
+He(7FGHI1) He(1S1) -> e e e e e
+He(7P1) He(1S1) -> e e e e e
+He(2S3) He(2S3) -> e He(+,1S2) He(1S1) e e e
+He(2S3) He(2S1) -> e He(+,1S2) He(1S1) e e e
+He(2S3) He(2P3) -> e He(+,1S2) He(1S1) e e e
+He(2S3) He(2P1) -> e He(+,1S2) He(1S1) e e e
+He(2S1) He(2S1) -> e He(+,1S2) He(1S1) e e e
+He(2S1) He(2P3) -> e He(+,1S2) He(1S1) e e e
+He(2S1) He(2P1) -> e He(+,1S2) He(1S1) e e e
+He(2P3) He(2P3) -> e He(+,1S2) He(1S1) e e e
+He(2P3) He(2P1) -> e He(+,1S2) He(1S1) e e e
+He(2P1) He(2P1) -> e He(+,1S2) He(1S1) e e e
+He(2S3) He(2S3) -> e e e e e
+He(2S3) He(2S1) -> e e e e e
+He(2S3) He(2P3) -> e e e e e
+He(2S3) He(2P1) -> e e e e e
+He(2S1) He(2S1) -> e e e e e
+He(2S1) He(2P3) -> e e e e e
+He(2S1) He(2P1) -> e e e e e
+He(2P3) He(2P3) -> e e e e e
+He(2P3) He(2P1) -> e e e e e
+He(2P1) He(2P1) -> e e e e e
+He(3D3) He(1S1) <-> He(3P3) He(1S1) e e
+He(3P1) He(1S1) <-> He(3D1) He(1S1) e e
+He(4P3) He(1S1) <-> He(4S3) He(1S1) e e
+He(5P3) He(1S1) <-> He(5S3) He(1S1) e e
+He(6P3) He(1S1) <-> He(6S3) He(1S1) e e
+He(7P3) He(1S1) <-> He(7S3) He(1S1) e e
+He(4D3) He(1S1) <-> He(4S3) He(1S1) e e
+He(5D3) He(1S1) <-> He(5S3) He(1S1) e e
+He(6D3) He(1S1) <-> He(6S3) He(1S1) e e
+He(7D3) He(1S1) <-> He(7S3) He(1S1) e e
+He(4D3) He(1S1) <-> He(4P3) He(1S1) e e
+He(5D3) He(1S1) <-> He(5P3) He(1S1) e e
+He(6D3) He(1S1) <-> He(6P3) He(1S1) e e
+He(7D3) He(1S1) <-> He(7P3) He(1S1) e e
+He(4D1) He(1S1) <-> He(4S1) He(1S1) e e
+He(5D1) He(1S1) <-> He(5S1) He(1S1) e e
+He(6D1) He(1S1) <-> He(6S1) He(1S1) e e
+He(7D1) He(1S1) <-> He(7S1) He(1S1) e e
+He(4F3) He(1S1) <-> He(4S3) He(1S1) e e
+He(5FG3) He(1S1) <-> He(5S3) He(1S1) e e
+He(6FGH3) He(1S1) <-> He(6S3) He(1S1) e e
+He(7FGHI3) He(1S1) <-> He(7S3) He(1S1) e e
+He(4F3) He(1S1) <-> He(4P3) He(1S1) e e
+He(5FG3) He(1S1) <-> He(5P3) He(1S1) e e
+He(6FGH3) He(1S1) <-> He(6P3) He(1S1) e e
+He(7FGHI3) He(1S1) <-> He(7P3) He(1S1) e e
+He(4F3) He(1S1) <-> He(4D3) He(1S1) e e
+He(5FG3) He(1S1) <-> He(5D3) He(1S1) e e
+He(6FGH3) He(1S1) <-> He(6D3) He(1S1) e e
+He(7FGHI3) He(1S1) <-> He(7D3) He(1S1) e e
+He(4F1) He(1S1) <-> He(4S1) He(1S1) e e
+He(5FG1) He(1S1) <-> He(5S1) He(1S1) e e
+He(6FGH1) He(1S1) <-> He(6S1) He(1S1) e e
+He(7FGHI1) He(1S1) <-> He(7S1) He(1S1) e e
+He(4F1) He(1S1) <-> He(4D1) He(1S1) e e
+He(5FG1) He(1S1) <-> He(5D1) He(1S1) e e
+He(6FGH1) He(1S1) <-> He(6D1) He(1S1) e e
+He(7FGHI1) He(1S1) <-> He(7D1) He(1S1) e e
+He(4P1) He(1S1) <-> He(4S1) He(1S1) e e
+He(5P1) He(1S1) <-> He(5S1) He(1S1) e e
+He(6P1) He(1S1) <-> He(6S1) He(1S1) e e
+He(7P1) He(1S1) <-> He(7S1) He(1S1) e e
+He(4P1) He(1S1) <-> He(4D1) He(1S1) e e
+He(5P1) He(1S1) <-> He(5D1) He(1S1) e e
+He(6P1) He(1S1) <-> He(6D1) He(1S1) e e
+He(7P1) He(1S1) <-> He(7D1) He(1S1) e e
+He(4P1) He(1S1) <-> He(4F1) He(1S1) e e
+He(5P1) He(1S1) <-> He(5FG1) He(1S1) e e
+He(6P1) He(1S1) <-> He(6FGH1) He(1S1) e e
+He(7P1) He(1S1) <-> He(7FGHI1) He(1S1) e e
+He(4F1) He(1S1) <-> He(4F3) He(1S1) e e e
+He(5FG1) He(1S1) <-> He(5FG3) He(1S1) e e e
+He(6FGH1) He(1S1) <-> He(6FGH3) He(1S1) e e e
+He(7FGHI1) He(1S1) <-> He(7FGHI3) He(1S1) e e e
+He(+,1S2) He(1S1) -> e He(1S1) e e e
+e He(1S1) -> He(+,1S2) He(1S1) e e e e
+He(2P3) He(1S1) -> e e He(1S1) e e e
+He(2S3) He(1S1) -> e e He(1S1) e e e
+e e He(1S1) -> He(2P3) He(1S1) e e e
+He(2P1) -> He(1S1) e e e
+He(3P1) -> He(1S1) e e e
+He(4P1) -> He(1S1) e e e
+He(5P1) -> He(1S1) e e e
+He(6P1) -> He(1S1) e e e
+He(7P1) -> He(1S1) e e e
+He(2P3) -> He(2S3) e e e
+He(3P3) -> He(2S3) e e e
+He(4P3) -> He(2S3) e e e e e
+He(5P3) -> He(2S3) e e e e e
+He(6P3) -> He(2S3) e e e e e
+He(7P3) -> He(2S3) e e e e e
+He(2P1) -> He(2S1) e e e
+He(3P1) -> He(2S1) e e e e e
+He(4P1) -> He(2S1) e e e e e
+He(5P1) -> He(2S1) e e e e e
+He(6P1) -> He(2S1) e e e e e
+He(7P1) -> He(2S1) e e e e e
+He(3S3) -> He(2P3) e e e e e
+He(3D3) -> He(2P3) e e e
+He(4S3) -> He(2P3) e e e e e
+He(4D3) -> He(2P3) e e e e e
+He(5S3) -> He(2P3) e e e e e
+He(5D3) -> He(2P3) e e e e e
+He(6S3) -> He(2P3) e e e e e
+He(6D3) -> He(2P3) e e e e e
+He(7S3) -> He(2P3) e e e e e
+He(7D3) -> He(2P3) e e e e e
+He(3S1) -> He(2P1) e e e e e
+He(3D1) -> He(2P1) e e e e e
+He(4S1) -> He(2P1) e e e e e
+He(4D1) -> He(2P1) e e e e e
+He(5S1) -> He(2P1) e e e e e
+He(5D1) -> He(2P1) e e e e e
+He(6S1) -> He(2P1) e e e e e
+He(6D1) -> He(2P1) e e e e e
+He(7S1) -> He(2P1) e e e e e
+He(7D1) -> He(2P1) e e e e e
+He(3P3) -> He(3S3) e e e e e
+He(4P3) -> He(3S3) e e e e e
+He(5P3) -> He(3S3) e e e e e
+He(6P3) -> He(3S3) e e e e e
+He(7P3) -> He(3S3) e e e e e
+He(3P1) -> He(3S1) e e e e e
+He(4P1) -> He(3S1) e e e e e
+He(5P1) -> He(3S1) e e e e e
+He(6P1) -> He(3S1) e e e e e
+He(7P1) -> He(3S1) e e e e e
+He(3D3) -> He(3P3) e e e e e
+He(4S3) -> He(3P3) e e e e e
+He(4D3) -> He(3P3) e e e e e
+He(5S3) -> He(3P3) e e e e e
+He(5D3) -> He(3P3) e e e e e
+He(6S3) -> He(3P3) e e e e e
+He(6D3) -> He(3P3) e e e e e
+He(7S3) -> He(3P3) e e e e e
+He(7D3) -> He(3P3) e e e e e
+He(4P3) -> He(3D3) e e e e e
+He(4F3) -> He(3D3) e e e e e
+He(5P3) -> He(3D3) e e e e e
+He(5FG3) -> He(3D3) e e e e e
+He(6P3) -> He(3D3) e e e e e
+He(6FGH3) -> He(3D3) e e e e e
+He(7P3) -> He(3D3) e e e e e
+He(7FGHI3) -> He(3D3) e e e e e
+He(3P1) -> He(3D1) e e e e e
+He(4F1) -> He(3D1) e e e e e
+He(4P1) -> He(3D1) e e e e e
+He(5FG1) -> He(3D1) e e e e e
+He(5P1) -> He(3D1) e e e e e
+He(6FGH1) -> He(3D1) e e e e e
+He(6P1) -> He(3D1) e e e e e
+He(7FGHI1) -> He(3D1) e e e e e
+He(7P1) -> He(3D1) e e e e e
+He(4S1) -> He(3P1) e e e e e
+He(4D1) -> He(3P1) e e e e e
+He(5S1) -> He(3P1) e e e e e
+He(5D1) -> He(3P1) e e e e e
+He(6S1) -> He(3P1) e e e e e
+He(6D1) -> He(3P1) e e e e e
+He(7S1) -> He(3P1) e e e e e
+He(7D1) -> He(3P1) e e e e e
+He(4P3) -> He(4S3) e e e e e
+He(5P3) -> He(4S3) e e e e e
+He(6P3) -> He(4S3) e e e e e
+He(7P3) -> He(4S3) e e e e e
+He(4P1) -> He(4S1) e e e e e
+He(5P1) -> He(4S1) e e e e e
+He(6P1) -> He(4S1) e e e e e
+He(7P1) -> He(4S1) e e e e e
+He(4D3) -> He(4P3) e e e e e
+He(5S3) -> He(4P3) e e e e e
+He(5D3) -> He(4P3) e e e e e
+He(6S3) -> He(4P3) e e e e e
+He(6D3) -> He(4P3) e e e e e
+He(7S3) -> He(4P3) e e e e e
+He(7D3) -> He(4P3) e e e e e
+He(4F3) -> He(4D3) e e e e e
+He(5P3) -> He(4D3) e e e e e
+He(5FG3) -> He(4D3) e e e e e
+He(6P3) -> He(4D3) e e e e e
+He(6FGH3) -> He(4D3) e e e e e
+He(7P3) -> He(4D3) e e e e e
+He(7FGHI3) -> He(4D3) e e e e e
+He(4F1) -> He(4D1) e e e e e
+He(4P1) -> He(4D1) e e e e e
+He(5FG1) -> He(4D1) e e e e e
+He(5P1) -> He(4D1) e e e e e
+He(6FGH1) -> He(4D1) e e e e e
+He(6P1) -> He(4D1) e e e e e
+He(7FGHI1) -> He(4D1) e e e e e
+He(7P1) -> He(4D1) e e e e e
+He(5D3) -> He(4F3) e e e e e
+He(5FG3) -> He(4F3) e e e e e
+He(6D3) -> He(4F3) e e e e e
+He(6FGH3) -> He(4F3) e e e e e
+He(7D3) -> He(4F3) e e e e e
+He(7FGHI3) -> He(4F3) e e e e e
+He(5D1) -> He(4F1) e e e e e
+He(5FG1) -> He(4F1) e e e e e
+He(6D1) -> He(4F1) e e e e e
+He(6FGH1) -> He(4F1) e e e e e
+He(7D1) -> He(4F1) e e e e e
+He(7FGHI1) -> He(4F1) e e e e e
+He(5S1) -> He(4P1) e e e e e
+He(5D1) -> He(4P1) e e e e e
+He(6S1) -> He(4P1) e e e e e
+He(6D1) -> He(4P1) e e e e e
+He(7S1) -> He(4P1) e e e e e
+He(7D1) -> He(4P1) e e e e e
+He(5P3) -> He(5S3) e e e e e
+He(6P3) -> He(5S3) e e e e e
+He(7P3) -> He(5S3) e e e e e
+He(5P1) -> He(5S1) e e e e e
+He(6P1) -> He(5S1) e e e e e
+He(7P1) -> He(5S1) e e e e e
+He(5D3) -> He(5P3) e e e e e
+He(6S3) -> He(5P3) e e e e e
+He(6D3) -> He(5P3) e e e e e
+He(7S3) -> He(5P3) e e e e e
+He(7D3) -> He(5P3) e e e e e
+He(5FG3) -> He(5D3) e e e e e
+He(6P3) -> He(5D3) e e e e e
+He(6FGH3) -> He(5D3) e e e e e
+He(7P3) -> He(5D3) e e e e e
+He(7FGHI3) -> He(5D3) e e e e e
+He(5FG1) -> He(5D1) e e e e e
+He(5P1) -> He(5D1) e e e e e
+He(6FGH1) -> He(5D1) e e e e e
+He(6P1) -> He(5D1) e e e e e
+He(7FGHI1) -> He(5D1) e e e e e
+He(7P1) -> He(5D1) e e e e e
+He(6D3) -> He(5FG3) e e e e e
+He(6FGH3) -> He(5FG3) e e e e e
+He(7D3) -> He(5FG3) e e e e e
+He(7FGHI3) -> He(5FG3) e e e e e
+He(6D1) -> He(5FG1) e e e e e
+He(6FGH1) -> He(5FG1) e e e e e
+He(7D1) -> He(5FG1) e e e e e
+He(7FGHI1) -> He(5FG1) e e e e e
+He(6S1) -> He(5P1) e e e e e
+He(6D1) -> He(5P1) e e e e e
+He(7S1) -> He(5P1) e e e e e
+He(7D1) -> He(5P1) e e e e e
+He(6P3) -> He(6S3) e e e e e
+He(7P3) -> He(6S3) e e e e e
+He(6P1) -> He(6S1) e e e e e
+He(7P1) -> He(6S1) e e e e e
+He(6D3) -> He(6P3) e e e e e
+He(7S3) -> He(6P3) e e e e e
+He(7D3) -> He(6P3) e e e e e
+He(6FGH3) -> He(6D3) e e e e e
+He(7P3) -> He(6D3) e e e e e
+He(7FGHI3) -> He(6D3) e e e e e
+He(6P1) -> He(6D1) e e e e e
+He(7S3) -> He(6D1) e e e e e
+He(7FGHI1) -> He(6D1) e e e e e
+He(7P1) -> He(6D1) e e e e e
+He(7D3) -> He(6FGH3) e e e e e
+He(7FGHI3) -> He(6FGH3) e e e e e
+He(7D1) -> He(6FGH1) e e e e e
+He(7FGHI1) -> He(6FGH1) e e e e e
+He(7S1) -> He(6P1) e e e e e
+He(7D1) -> He(6P1) e e e e e
+He(2S3) -> He(1S1)
+He(2S1) -> He(1S1)
+e e -> He(1S1)
+He(+,1S2) -> He(1S1) e e e e
+e -> He(1S1) e e e e
