@@ -1,28 +1,29 @@
-import os
 import re
 
 # Definir la ruta del archivo
-file_path = os.path.join(os.getcwd(), 'TFG', 'helium.chem')
-output_path = os.path.join(os.getcwd(), 'TFG', 'helium_clean.txt')
+file_path = 'little_helium.txt'
+output_path = 'helium_prueba.txt'
 
 # Leer el archivo y eliminar líneas comentadas y vacías
 with open(file_path, 'r') as file:
     lines = file.readlines()
 
-# Filtrar las líneas que contienen flechas, 'e' y 'He(...)', y eliminar las líneas que comienzan con %, espacios en blanco y barras
-pattern = re.compile(r'(->|<->|e|He\([^\)]+\))')
-clean_lines = [line.strip() for line in lines if line.strip() and not line.strip().startswith('%') and not line.strip().startswith('|') and pattern.search(line)]
+# Filtrar las líneas: eliminar comentarios (%) y tomar solo la parte antes de '|'
+filtered_lines = []
+for line in lines:
+    line = line.strip()  # Eliminar espacios en blanco al inicio y al final
+    if line and not line.startswith('%'):  # Verificar que no esté vacía ni sea un comentario
+        filtered_lines.append(line.split('|')[0])  # Tomar solo la parte antes de '|'
 
-# Extraer solo los elementos e, +, flechas o He(...)
+# Aplicar la expresión regular para extraer elementos específicos
+pattern = re.compile(r'(->|<->|e|He\([^\)]+\))')
 extracted_lines = []
-for line in clean_lines:
-    matches = pattern.findall(line)
-    extracted_lines.append(" ".join(matches))
+for line in filtered_lines:
+    matches = pattern.findall(line)  # Buscar coincidencias en la línea
+    extracted_lines.append(" ".join(matches))  # Unir las coincidencias en una sola línea
 
 # Guardar el resultado en un nuevo archivo de texto
 with open(output_path, 'w') as file:
     file.writelines("\n".join(extracted_lines))
-
-print("Archivo limpio creado en:", output_path)
 
 print("Archivo limpio creado en:", output_path)
