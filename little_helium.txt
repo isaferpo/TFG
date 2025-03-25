@@ -1,0 +1,14 @@
+e + He(1S1) <-> e + He(2S3)                     | eedf                              |                              |
+e + He(1S1) <-> e + He(2S1)                     | eedf                              |                              |
+e + He(1S1) <-> e + He(2P3) 
+e + He(1S1) -> e + e + He(+,1S2)                | eedf                              |                              |
+e + He(2S3) -> e + e + He(+,1S2)                | eedf                              |                              |
+e + He(2S1) -> e + e + He(+,1S2) 
+e + He2(exc) -> e + e + He2(+,2S3) 
+e + e + He2(+,2S3) -> e + He(1S1) + He(2S3)
+e + He2(+,2S3) -> He(2P1) + He(1S1)
+% He(5P3) + He(1S1) -> e + He2(+,2S3)              | constantRateCoeff                 | 3.82e-17                     | 
+% He(5D3) + He(1S1) -> e + He2(+,2S3)              | constantRateCoeff                 | 9.79e-17                     | 
+% He(5D1) + He(1S1) -> e + He2(+,2S3)
+He(3S3) + He(1S1) -> e + He2(+,2S3) 
+He(2S3) + He(2S3) -> e + He(+,1S2) + He(1S1) 
