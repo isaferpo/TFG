@@ -16,7 +16,8 @@ for line in lines:
         filtered_lines.append(line.split('|')[0])  # Tomar solo la parte antes de '|'
 
 # Aplicar la expresión regular para extraer elementos específicos
-pattern = re.compile(r'(->|<->|e|He\([^\)]+\))')
+pattern = re.compile(r'(->|<->|e|He2?\([^\)]+\))')
+
 extracted_lines = []
 for line in filtered_lines:
     matches = pattern.findall(line)  # Buscar coincidencias en la línea
