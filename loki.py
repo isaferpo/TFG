@@ -85,14 +85,27 @@ def parseReactionStr(reactionStr):
     rhsSpecies, rhsStoichiometricCoeffs = parseSpeciesStr(rhsStr)
     
     # Create reaction dictionary
-    reaction = {
-        'description': reactionStr,
-        'lhsSpecies': lhsSpecies,
-        'lhsStoichiometricCoeffs': lhsStoichiometricCoeffs,
-        'rhsSpecies': rhsSpecies,
-        'rhsStoichiometricCoeffs': rhsStoichiometricCoeffs,
-        'backwardReaction': backwardReaction
-    }
+    # Para reacción reversible, se concatenan las listas de ambos lados
+    if backwardReaction:
+        combinedSpecies = lhsSpecies + rhsSpecies
+        combinedCoeffs = lhsStoichiometricCoeffs + rhsStoichiometricCoeffs
+        reaction = {
+            'description': reactionStr,
+            'lhsSpecies': combinedSpecies,
+            'lhsStoichiometricCoeffs': combinedCoeffs,
+            'rhsSpecies': combinedSpecies,
+            'rhsStoichiometricCoeffs': combinedCoeffs,
+            'backwardReaction': backwardReaction
+        }
+    else:
+        reaction = {
+            'description': reactionStr,
+            'lhsSpecies': lhsSpecies,
+            'lhsStoichiometricCoeffs': lhsStoichiometricCoeffs,
+            'rhsSpecies': rhsSpecies,
+            'rhsStoichiometricCoeffs': rhsStoichiometricCoeffs,
+            'backwardReaction': backwardReaction
+        }
     return reaction
 
 def parseSpeciesStr(str):
