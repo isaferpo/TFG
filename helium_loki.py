@@ -1,68 +1,35 @@
 import loki as lk
-import pandas as pd
 import matplotlib.pyplot as plt
 
 def main(file):
     # Parsear el archivo químico
     uniqueSpecies, reactions = lk.parseChemFile(file)
 
-    # Crear una lista de especies únicas
-    speciesList = sorted(uniqueSpecies)  # Ordenar para consistencia
+    # Lista ordenada de especies únicas
+    speciesList = sorted(uniqueSpecies)
 
-    # Inicializar matrices de incidencia para reactivos y productos
+    # Inicializar matrices binarias
     reactantsMatrix = []
     productsMatrix = []
 
-    # Construir las matrices de incidencia
+    # Construcción usando sets y comprensión de listas
     for reaction in reactions:
-        # Inicializar filas para la reacción actual
-        reactantsRow = [0] * len(speciesList)
-        productsRow = [0] * len(speciesList)
+        lhs_species = set(reaction['lhsSpecies'])  # Reactivos
+        rhs_species = set(reaction['rhsSpecies'])    # Productos
 
-        # Llenar la fila de reactivos
-        for idx, species in enumerate(speciesList):
-            if species in reaction['lhsSpecies']:
-                reactantsRow[idx] = reaction['lhsStoichiometricCoeffs'][reaction['lhsSpecies'].index(species)]
+        reactantsRow = [1 if species in lhs_species else 0 for species in speciesList]
+        productsRow  = [1 if species in rhs_species else 0 for species in speciesList]
 
-        # Llenar la fila de productos
-        for idx, species in enumerate(speciesList):
-            if species in reaction['rhsSpecies']:
-                productsRow[idx] = reaction['rhsStoichiometricCoeffs'][reaction['rhsSpecies'].index(species)]
-
-        # Agregar las filas a las matrices
         reactantsMatrix.append(reactantsRow)
         productsMatrix.append(productsRow)
 
-    # Representar las matrices de incidencia con imshow
-    fig, axes = plt.subplots(1, 2, figsize=(12, 6))
+    # Mostrar las cuadriculas (matrices binarias) con imshow antes de los histogramas
+    mostrar_matriz_binaria(reactantsMatrix, speciesList, "Matriz binaria de Reactivos")
+    mostrar_matriz_binaria(productsMatrix, speciesList, "Matriz binaria de Productos")
 
-    # Matriz de reactivos
-    axes[0].imshow(reactantsMatrix, cmap='Blues', aspect='auto')
-    axes[0].set_title("Matriz de Incidencia - Reactivos")
-    axes[0].set_xlabel("Especies")
-    axes[0].set_ylabel("Reacciones")
-    axes[0].set_xticks(range(len(speciesList)))
-    axes[0].set_xticklabels(speciesList, rotation=90)
-    axes[0].set_yticks(range(len(reactions)))
-    axes[0].set_yticklabels([f"R{i+1}" for i in range(len(reactions))])
-
-    # Matriz de productos
-    axes[1].imshow(productsMatrix, cmap='Oranges', aspect='auto')
-    axes[1].set_title("Matriz de Incidencia - Productos")
-    axes[1].set_xlabel("Especies")
-    axes[1].set_ylabel("Reacciones")
-    axes[1].set_xticks(range(len(speciesList)))
-    axes[1].set_xticklabels(speciesList, rotation=90)
-    axes[1].set_yticks(range(len(reactions)))
-    axes[1].set_yticklabels([f"R{i+1}" for i in range(len(reactions))])
-
-    # Ajustar diseño y mostrar las matrices
-    plt.tight_layout()
-    plt.show()
-
-    # Calcular el grado de los nodos (degree node) para las especies
-    reactantsDegree = [sum(col) for col in zip(*reactantsMatrix)]  # Suma de cada columna (grado en reactivos)
-    productsDegree = [sum(col) for col in zip(*productsMatrix)]    # Suma de cada columna (grado en productos)
+    # Calcular el grado de los nodos para las especies (suma de cada columna)
+    reactantsDegree = [sum(col) for col in zip(*reactantsMatrix)]
+    productsDegree = [sum(col) for col in zip(*productsMatrix)]
 
     # Crear histogramas del grado de los nodos
     fig, axes = plt.subplots(1, 2, figsize=(12, 6))
@@ -81,9 +48,23 @@ def main(file):
     axes[1].set_ylabel("Grado")
     axes[1].tick_params(axis='x', rotation=90)
 
-    # Ajustar diseño y mostrar los histogramas
     plt.tight_layout()
     plt.show()
+
+
+def mostrar_matriz_binaria(matriz, speciesList, titulo):
+    # Aumentamos el tamaño de la figura para que la cuadricula se vea más grande.
+    plt.figure(figsize=(20, 12))
+    # Usamos 'gray_r' para que el valor 1 se muestre en negro y 0 en blanco
+    plt.imshow(matriz, cmap='gray_r', interpolation='nearest')
+    plt.title(titulo)
+    plt.xlabel("Especies")
+    plt.ylabel("Reacciones")
+    plt.xticks(range(len(speciesList)), speciesList, rotation=90)
+    plt.yticks(range(len(matriz)))
+    plt.tight_layout()
+    plt.show()
+
 
 if __name__ == "__main__":
     main('helium.chem')
