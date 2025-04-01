@@ -1,5 +1,6 @@
 import loki as lk
 import matplotlib.pyplot as plt
+import numpy as np
 
 def main(file):
     # Parsear el archivo químico
@@ -29,6 +30,10 @@ def main(file):
         # Convertir los diccionarios a listas y agregar a las matrices
         reactantsMatrix.append(list(reactantsRow.values()))
         productsMatrix.append(list(productsRow.values()))
+
+    # Guardar las matrices como archivos .npy
+    reactants_matrix_b = np.save('reactantsMatrix.npy', reactantsMatrix)
+    products_matrix_b = np.save('productsMatrix.npy', productsMatrix)
 
     # Mostrar las matrices binarias con imshow antes de los histogramas
     mostrar_matriz_binaria(reactantsMatrix, uniqueSpecies, "Matriz binaria de Reactivos")
