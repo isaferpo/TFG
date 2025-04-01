@@ -5,9 +5,6 @@ def main(file):
     # Parsear el archivo químico
     uniqueSpecies, reactions = lk.parseChemFile(file)
 
-    # Lista ordenada de especies únicas
-    speciesList = sorted(uniqueSpecies)
-
     # Inicializar matrices binarias como listas de diccionarios
     reactantsMatrix = []
     productsMatrix = []
@@ -15,8 +12,8 @@ def main(file):
     # Construcción de matrices binarias utilizando diccionarios
     for reaction in reactions:
         # Crear diccionarios para reactivos y productos
-        reactantsRow = {species: 0 for species in speciesList}
-        productsRow = {species: 0 for species in speciesList}
+        reactantsRow = {species: 0 for species in uniqueSpecies}
+        productsRow = {species: 0 for species in uniqueSpecies}
 
         # Marcar las especies en reactivos y productos
         for species in reaction['lhsSpecies']:
@@ -34,8 +31,8 @@ def main(file):
         productsMatrix.append(list(productsRow.values()))
 
     # Mostrar las matrices binarias con imshow antes de los histogramas
-    mostrar_matriz_binaria(reactantsMatrix, speciesList, "Matriz binaria de Reactivos")
-    mostrar_matriz_binaria(productsMatrix, speciesList, "Matriz binaria de Productos")
+    mostrar_matriz_binaria(reactantsMatrix, uniqueSpecies, "Matriz binaria de Reactivos")
+    mostrar_matriz_binaria(productsMatrix, uniqueSpecies, "Matriz binaria de Productos")
 
     # Calcular el grado de los nodos para las especies (suma de cada columna)
     reactantsDegree = [sum(col) for col in zip(*reactantsMatrix)]
@@ -45,14 +42,14 @@ def main(file):
     fig, axes = plt.subplots(1, 2, figsize=(12, 6))
 
     # Histograma para los reactivos
-    axes[0].bar(speciesList, reactantsDegree, color='blue', alpha=0.7)
+    axes[0].bar(uniqueSpecies, reactantsDegree, color='blue', alpha=0.7)
     axes[0].set_title("Grado de Nodos - Reactivos")
     axes[0].set_xlabel("Especies")
     axes[0].set_ylabel("Grado")
     axes[0].tick_params(axis='x', rotation=90)
 
     # Histograma para los productos
-    axes[1].bar(speciesList, productsDegree, color='orange', alpha=0.7)
+    axes[1].bar(uniqueSpecies, productsDegree, color='orange', alpha=0.7)
     axes[1].set_title("Grado de Nodos - Productos")
     axes[1].set_xlabel("Especies")
     axes[1].set_ylabel("Grado")
