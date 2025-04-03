@@ -43,8 +43,8 @@ def main(file):
     reactantsDegree = [sum(col) for col in zip(*reactantsMatrix)]
     productsDegree = [sum(col) for col in zip(*productsMatrix)]
 
-    reactants_conectivity = np.save('reactantsDegree', reactantsDegree)
-    products_conectivity = np.save('productsDegree', productsDegree)
+    np.save('reactantsDegree', reactantsDegree)
+    np.save('productsDegree', productsDegree)
 
     # Crear histogramas del grado de los nodos
     fig, axes = plt.subplots(1, 2, figsize=(12, 6))
