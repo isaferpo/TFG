@@ -32,8 +32,8 @@ def main(file):
         productsMatrix.append(list(productsRow.values()))
 
     # Guardar las matrices como archivos .npy
-    reactants_matrix_b = np.save('reactantsMatrix.npy', reactantsMatrix)
-    products_matrix_b = np.save('productsMatrix.npy', productsMatrix)
+    np.save('reactantsMatrix.npy', reactantsMatrix)
+    np.save('productsMatrix.npy', productsMatrix)
 
     # Mostrar las matrices binarias con imshow antes de los histogramas
     mostrar_matriz_binaria(reactantsMatrix, uniqueSpecies, "Matriz binaria de Reactivos")
