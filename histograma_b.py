@@ -1,44 +1,51 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Cargar datos
+# Cargar datos desde archivos .npy
 reactantsMatrix = np.load('reactantsMatrix.npy')
 productsMatrix = np.load('productsMatrix.npy')
 reactantsDegree = np.load('reactantsDegree.npy')
 productsDegree = np.load('productsDegree.npy')
 
-# Asegurar arrays numpy
+# Asegurar que son arrays de numpy
 reactantsDegree = np.array(reactantsDegree)
 productsDegree = np.array(productsDegree)
 
-# Definir bins comunes
-max_degree = max(reactantsDegree.max(), productsDegree.max())
-bins = range(0, int(max_degree) + 2)  # Bins enteros: 0, 1, 2, ..., max_degree
+# ---------- FUNCIONES AUXILIARES ----------
 
-# Calcular histogramas
-reactants_hist, _ = np.histogram(reactantsDegree, bins=bins)
-products_hist, _ = np.histogram(productsDegree, bins=bins)
-bin_centers = bins[:-1]  # Para etiquetar las barras
+def plot_histogram(degrees, title, color, output_name=None):
+    # Calcular histograma
+    max_degree = degrees.max()
+    bins = range(0, int(max_degree) + 2)
+    hist, _ = np.histogram(degrees, bins=bins)
+    bin_centers = bins[:-1]
 
-# Crear subplots lado a lado
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5), sharey=True)
+    # Crear figura
+    plt.figure(figsize=(10, 6))  # Puedes ajustar el tamaño aquí
+    bars = plt.bar(bin_centers, hist, color=color, edgecolor='black', width=0.8)
 
-# Histograma de Reactivos
-ax1.bar(bin_centers, reactants_hist, color='skyblue', edgecolor='black', width=7)
-ax1.set_title("Reactivos")
-ax1.set_xlabel("Grado de conectividad")
-ax1.set_ylabel("Número de especies")
-ax1.grid(True, linestyle='--', alpha=0.6)
-max_y = max(reactants_hist.max(), products_hist.max())
-ax1.set_yticks(np.arange(0, max_y + 26, 25))
+    # Añadir valores encima de las barras
+    for bar in bars:
+        height = bar.get_height()
+        if height > 0:
+            plt.text(bar.get_x() + bar.get_width()/2, height + 1, str(height),
+                     ha='center', va='bottom', fontsize=9)
 
-# Histograma de Productos
-ax2.bar(bin_centers, products_hist, color='salmon', edgecolor='black', width=7)
-ax2.set_title("Productos")
-ax2.set_xlabel("Grado de conectividad")
-ax2.grid(True, linestyle='--', alpha=0.6)
+    # Configurar ejes y título
+    plt.xlabel("Grado de conectividad")
+    plt.ylabel("Número de especies")
+    plt.title(title)
+    max_y = hist.max()
+    plt.yticks(np.arange(0, max_y + 26, 25))  # Escala del eje Y cada 25
+    plt.grid(True, linestyle='--', alpha=0.6)
+    plt.tight_layout()
 
-# Mostrar ambos
-plt.suptitle("Comparativa de grados de conectividad por especie")
-plt.tight_layout(rect=[0, 0, 1, 0.95])  # Ajustar para el título
-plt.show()
+    # Guardar o mostrar
+    if output_name:
+        plt.savefig(output_name, dpi=300)
+    plt.show()
+
+# ---------- DIBUJAR HISTOGRAMAS ----------
+
+plot_histogram(reactantsDegree, "Histograma de conectividad - Reactivos", color='skyblue')
+plot_histogram(productsDegree, "Histograma de conectividad - Productos", color='salmon')
