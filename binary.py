@@ -19,13 +19,13 @@ def main(file):
         # Marcar las especies en reactivos y productos
         for species in reaction['lhsSpecies']:
             reactantsRow[species] = 1
-            if reaction['backwardReaction']:
-                productsRow[species] = 1  # También marcar como producto
+            # if reaction['backwardReaction']:
+            #     productsRow[species] = 1  # También marcar como producto
 
         for species in reaction['rhsSpecies']:
             productsRow[species] = 1
-            if reaction['backwardReaction']:
-                reactantsRow[species] = 1  # También marcar como reactivo
+            # if reaction['backwardReaction']:
+            #     reactantsRow[species] = 1  # También marcar como reactivo
 
         # Convertir los diccionarios a listas y agregar a las matrices
         reactantsMatrix.append(list(reactantsRow.values()))
@@ -38,6 +38,7 @@ def main(file):
     # Mostrar las matrices binarias con imshow antes de los histogramas
     mostrar_matriz_binaria(reactantsMatrix, uniqueSpecies, "Matriz binaria de Reactivos")
     mostrar_matriz_binaria(productsMatrix, uniqueSpecies, "Matriz binaria de Productos")
+    plt.show()
 
     # Calcular el grado de los nodos para las especies (suma de cada columna)
     reactantsDegree = [sum(col) for col in zip(*reactantsMatrix)]
@@ -55,6 +56,7 @@ def main(file):
     axes[0].set_xlabel("Especies")
     axes[0].set_ylabel("Grado")
     axes[0].tick_params(axis='x', rotation=90)
+    
 
     # Histograma para los productos
     axes[1].bar(uniqueSpecies, productsDegree, color='orange', alpha=0.7)
@@ -64,6 +66,10 @@ def main(file):
     axes[1].tick_params(axis='x', rotation=90)
 
     plt.tight_layout()
+    plt.show()
+
+    plt.hist(reactantsDegree, bins=50, color='blue', alpha=0.7, label='Reactivos', range=(0, 100))
+    plt.hist(productsDegree, bins=50, color='orange', alpha=0.7, label='Productos', range=(0, 100))
     plt.show()
 
 
@@ -77,7 +83,7 @@ def mostrar_matriz_binaria(matriz, speciesList, titulo):
     plt.ylabel("Reacciones")
     plt.xticks(range(len(speciesList)), speciesList, rotation=90)
     plt.tight_layout()
-    plt.show()
+    #plt.show()
 
 
 if __name__ == "__main__":
